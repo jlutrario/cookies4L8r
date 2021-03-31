@@ -1,0 +1,39 @@
+body {
+  background-color: dodgerblue;
+  background-image: url("cookie_img.png");
+  background-size: 7.5em;
+  background-repeat: space repeat;
+}
+
+.navbar {
+  box-shadow: 0 3px 12px black;
+}
+
+.navbar-brand {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.flash {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+textarea {
+  width: 95%;
+  height: auto;
+}
+
+#hideBtn {
+  display: none;
+}
